@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'AFHTTPRequestOperationLogger-rhgills'
   s.version  = '1.0.1'
+  s.platform = :ios
   s.license  = 'MIT'
   s.summary  = 'AFNetworking Extension for HTTP Request Logging'
   s.homepage = 'https://github.com/AFNetworking/AFHTTPRequestOperationLogger'
