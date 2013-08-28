@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.platform = :ios, '5.0'
   s.license  = 'MIT'
   s.summary  = 'AFNetworking Extension for HTTP Request Logging'
-  s.homepage = 'https://github.com/AFNetworking/AFHTTPRequestOperationLogger'
+  s.homepage = 'https://github.com/rhgills/AFHTTPRequestOperationLogger'
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source   = { :git => 'https://github.com/AFNetworking/AFHTTPRequestOperationLogger.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/rhgills/AFHTTPRequestOperationLogger.git', :tag => s.version.to_s }
   s.source_files = 'AFHTTPRequestOperationLogger.{h,m}'
   s.requires_arc = true
 
