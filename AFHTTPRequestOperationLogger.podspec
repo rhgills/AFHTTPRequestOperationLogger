@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'AFHTTPRequestOperationLogger'
+  s.name     = 'AFHTTPRequestOperationLogger-rhgills'
   s.version  = '1.0.0'
   s.license  = 'MIT'
   s.summary  = 'AFNetworking Extension for HTTP Request Logging'
@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source_files = 'AFHTTPRequestOperationLogger.{h,m}'
   s.requires_arc = true
 
-  s.dependency 'AFNetworking', '~> 1.0'
+  s.dependency 'AFNetworking-rhgills', '~> 1.0'
 end
